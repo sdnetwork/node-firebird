@@ -2,7 +2,7 @@
 // Project: node-firebird
 // Definitions by: Marco Warm <https://github.com/MarcusCalidus>
 
-declare module 'node-firebird' {
+declare module 'node-firebird-dev' {
     type DatabaseCallback = (err: any, db: Database) => void;
 
     type TransactionCallback = (err: Options, transaction: Transaction) => void;
